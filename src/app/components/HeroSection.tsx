@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function HeroSection() {
   return (
-    <div className="relative bg-[#0f0f2d] text-white">
+    <div className="relative bg-[#190F32] text-white">
       {/* Hero Section */}
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-32">
         <div className="flex flex-col md:flex-row items-center justify-between">
@@ -18,7 +18,7 @@ export default function HeroSection() {
           </div>
 
           {/* Illustration */}
-          <div className="relative w-full md:w-1/2 mt-10 md:mt-0">
+          <div className="relative w-full md:w-1/2 mt-10 md:mt-0 flex justify-center">
             <Image
               src="/illustration/hero.png" // replace with your actual image path
               alt="Illustration"
